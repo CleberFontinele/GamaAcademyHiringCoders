@@ -1,0 +1,118 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+} */
+
+body {
+  font: 20px Arial, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(163, 9, 9);
+}
+
+.logo-black-friday {
+  background-image: url(../../img/background1.jpeg);
+  color: aliceblue;
+}
+
+.margin {
+  /* display: flex;
+  justify-content: flex-end; */
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.servicos {
+  background-color: rgb(211, 107, 11);
+}
+
+.bg-footer {
+  background-color: rgb(5, 5, 5);
+  color: aliceblue;
+}
+
+.col-lg-4 img{
+  border-radius: 20%;
+}
+
+#form {
+  display: flex;
+  justify-content: space-around;
+}
+input{
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  border-radius: 12px;
+  background: rgb(1, 37, 22);
+  color: #fff
+}
+
+.header p {
+  color: #fff;
+}
+
+p {
+  color: #000;
+  margin-top: 10px;
+}
+
+#lanches {
+  background-color: rgb(252, 250, 165);
+}
+
+.header {
+  display: flex;
+  background-color: #000;
+  justify-content: space-around;
+}
+
+.header img {
+  width: 20px;
+}
+
+.image {
+  display: flex;
+  background-color: #000;
+  justify-content: center;
+}
+
+.image img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.cardapio{
+  width: 15%;
+  height: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 12px;
+  background: rgb(1, 37, 22);
+  color: #fff
+}
+
+#servicos img {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  margin-bottom: 20%;
+  margin-left: 25px;
+  /* width: 6.5%;
+  height: 6.5%; */
+  border: antiquewhite solid 2px;
+}
+
+#servicos img:hover {
+  -webkit-transform:scale(2.2);
+  transform:scale(1.2);
+}
+
+footer p {
+  color: #fff;
+}
